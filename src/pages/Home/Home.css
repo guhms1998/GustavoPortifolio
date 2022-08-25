@@ -1,0 +1,22 @@
+.titulo{
+    color: bisque;
+    text-align: center;
+} 
+    
+
+.back{
+    background-image: linear-gradient(#a37f53,bisque);
+    min-height: 75vh;
+}
+.button{
+    border-color: rgb(27, 22, 22);
+    color: "white";
+    margin-left: 340px;
+}
+.aa{
+    margin-top: 5px;
+    }
+.legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
