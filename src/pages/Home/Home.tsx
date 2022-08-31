@@ -38,7 +38,7 @@ function Home (){
             </Grid>
             <Grid xs={1} />
             <Grid xs={5}>
-                <img src='https://imgv3.fotor.com/images/side/How-to-student-ID-card.png'   width={'100%'} height={'100%'}/>
+                <img src='.\src\pages\Home\img\How-to-student-ID-card.png'   width={'100%'} height={'100%'}/>
             </Grid>
         </Grid>
     )

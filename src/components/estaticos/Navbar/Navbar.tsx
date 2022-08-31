@@ -10,7 +10,10 @@ function Navbar () {
   <Toolbar variant="dense" >
   <Grid container direction='row' xs={12} spacing={1} rowSpacing={2}  gridAutoFlow='row'className="Bar" padding={3}>
       <Grid  paddingTop={1} xs={7}  >
-          <img src=".\src\img\Hms.png" width={'60vh'} height={'60vh'}  className="img1"  />          
+        <Link href="/">
+        
+          <img src="src\components\estaticos\Navbar\Hms.png" width={'60vh'} height={'60vh'}  className="img1"  />          
+      </Link>
       </Grid>
       <Grid  xs={5}  display="flex" alignItems="center" justifyContent="center" rowSpacing={2} className='nav2'>
         <Box mx={2}>

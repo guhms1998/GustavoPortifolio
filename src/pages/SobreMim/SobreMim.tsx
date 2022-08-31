@@ -11,6 +11,7 @@ function SobreMim() {
                 
             </Grid>
             <Grid xs={6}>
+                <img src=".\src\pages\SobreMim\Logo-4-.gif" />
             <Typography>oi</Typography>
             </Grid>
             
