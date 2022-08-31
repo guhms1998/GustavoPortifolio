@@ -8,3 +8,7 @@
     background-size:contain;
     
 }
+.MuiTypography-h5 {
+    font-family: 'Wire One' !important;
+   font-size: 30px !important;
+    }

@@ -12,7 +12,7 @@ function Footer() {
                 <Grid alignItems="center" item xs={12}>
                     <Box className='footer1'>
                         <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
-                            <Typography variant="h5" align="center" gutterBottom style={{ color: "white" }}>Siga-nos nas redes sociais </Typography>
+                            <Typography variant="h5" align="center" gutterBottom style={{ color: "white" }}>Minhas Redes Sociais </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center" className='icons' align='center'>
                             <a href="https://www.facebook.com/generationbrasil" target="_blank">
@@ -31,8 +31,8 @@ function Footer() {
                             <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "white" }} >© 2022 Copyright:</Typography>
                         </Box>
                         <Box>
-                            <a target="_blank" href="https://brasil.generation.org">
-                                <Typography gutterBottom style={{ color: "white" }} align="center">brasil.generation.org</Typography>
+                            <a target="_blank" href="hms.com.br">
+                                <Typography gutterBottom style={{ color: "white" }} align="center">gustavohms.com.br</Typography>
                             </a>
                         </Box>
                     </Box>

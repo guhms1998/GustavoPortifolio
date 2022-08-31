@@ -1,27 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;900&display=swap');
 .Bar{
-    background-color: #eee6dd;
+    background-image: linear-gradient(rgb(73, 69, 90), #121314);
+   
     width: 100%;
     height: 100%;
+    padding-right: 0px;
     
 }
 .css-hip9hq-MuiPaper-root-MuiAppBar-root{
     background-color: #683900 !important;
 }
 .img1{
-    border-image: 100px;
-    width: 30vh;
-    height: 30vh;
+    border-image: 1000px;
+   
     
 }
 .MuiAppBar-colorPrimary{
     background-color: transparent !important;
 }
 .font{
-    color: black;
-    font-size: 45px !important;
-    font-weight: bolder;
-    font-family: 'Wire One', sans-serif !important;
+    color: #c2b4a4;
+    font-size: 20px !important;
+    font-weight: bold;
+    font-family: 'Encode Sans', sans-serif !important;
+    text-shadow: 10px black !important;
+    
 
+}
+.MuiToolbar-gutters {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }

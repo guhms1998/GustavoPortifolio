@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 .titulo{
     color: bisque;
     text-align: center;
 } 
-    
 
 .back{
     background-image: linear-gradient(#a37f53,bisque);
@@ -19,4 +21,22 @@
 .legend{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1000;
+}
+.texto1{
+    color: aliceblue;
+    font-size: 70px !important; 
+    font-family: 'Wire One', sans-serif !important;
+    text-align:right
+}
+.texto2{
+    color: #c2b4a4;
+    font-size: 50px !important; 
+    font-family: 'Silkscreen', sans-serif !important;   
+    text-align:right;
+  
+}
+
+.icon{
+    align-items:right;
+    text-align: right;
 }

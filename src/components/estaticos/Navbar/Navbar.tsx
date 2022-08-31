@@ -1,28 +1,31 @@
-import { AppBar, Toolbar, Typography } from "@material-ui/core";
+import { AppBar, Link, Toolbar, Typography } from "@material-ui/core";
 import { Grid, Box  } from "@mui/material";
 import './Navbar.css'
+import SobreMim from "../../../pages/SobreMim/SobreMim";
 
 function Navbar () {
   return(
 <>
 <AppBar position="static">
   <Toolbar variant="dense" >
-  <Grid container direction='row' xs={12} spacing={0} gridAutoFlow='row'className="Bar" padding={1}>
-      <Grid  paddingTop={2} xs={5}  >
-          <img src=".\src\img\Hms.png" width={'75vh'} height={'75vh'}  />
+  <Grid container direction='row' xs={12} spacing={1} rowSpacing={2}  gridAutoFlow='row'className="Bar" padding={3}>
+      <Grid  paddingTop={1} xs={7}  >
+          <img src=".\src\img\Hms.png" width={'60vh'} height={'60vh'}  className="img1"  />          
       </Grid>
-      <Grid  xs={6}  display="flex" alignItems="center" justifyContent="center" rowSpacing={2} className='nav2'>
-        <Box mx={1}>
-        <Typography className="font">Sobre Mim</Typography>
+      <Grid  xs={5}  display="flex" alignItems="center" justifyContent="center" rowSpacing={2} className='nav2'>
+        <Box mx={2}>
+        <Link href="/sobremim" >
+        <Typography className="font">Sobre Mim 🤯   </Typography>
+        </Link>
         </Box >
-        <Box mx={1}>
-        <Typography className="font">Conhecimentos</Typography>
+        <Box mx={2}>
+        <Typography className="font">Projetos 😎    </Typography>
         </Box>
-        <Box mx={1}>
-        <Typography className="font">Contato</Typography>
+        <Box mx={2}>
+        <Typography className="font">Contato 😊   </Typography>
         </Box >
-        <Box mx={1}>
-        <Typography className="font">Rede Sociais</Typography>
+        <Box mx={2}>
+        <Typography className="font">Rede Sociais 😳   </Typography>
         </Box>
       </Grid>
         
