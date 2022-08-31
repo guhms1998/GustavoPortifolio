@@ -1,0 +1,57 @@
+@import url('http://fonts.cdnfonts.com/css/aachen');
+
+.txt1{
+    color: azure !important;
+    text-align: center;
+    padding: 20px;
+    font-family:Verdana,  Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.gif {
+    /* height of container */
+    border-radius: 8%;
+    margin-top: 50px;
+    height: 70%;
+    width: 70%;
+    
+}
+.gif2{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 20px;
+}
+.neon{
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+   
+    
+}
+.foto{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    padding-top: 50px;
+    align-items: center;
+    margin-left: 200px;
+}
+.texto2{
+    font-family: 'Silkscreen', sans-serif !important;  
+    color: antiquewhite;
+    font-size:30px !important;
+    text-align: center;
+    padding-left: 35px;
+}
+.texto3{
+    color: #ffa808;
+    text-align: center;
+    font-family: 'Aachen', sans-serif !important;
+    text-shadow: 0 10px 0 #ff1d0c;
+    font-size: 80px !important;
+    padding-bottom: 150px;
+
+}

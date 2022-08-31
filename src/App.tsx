@@ -6,6 +6,7 @@ import Login from './pages/login/Login';
 import './App.css';
 import CadastroUsuario from './pages/CadastroUsuario/CadastroUsuario';
 import SobreMim from './pages/SobreMim/SobreMim';
+import Contato from './pages/Contato/Contato';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path='/' element={<Home />} /> 
           <Route path='/login' element={<Login />} /> 
           <Route path='/cadastrousuario' element={<CadastroUsuario />} />
-          <Route path='/sobremim' element={<SobreMim />} />      
+          <Route path='/sobremim' element={<SobreMim />} />  
+          <Route path='/contato' element={<Contato />}    
       
      </Routes>
 

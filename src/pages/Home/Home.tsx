@@ -19,7 +19,7 @@ function Home (){
                 <Box >
                     <Typography className='texto1'> Oi, Bem vindo ao meu site de</Typography>
                     <Typography className='texto1'>  Portifolio, Meu nome é</Typography>            
-                    <Typography className='texto2'>Gustavo Henrique</Typography>
+                    <Typography className='text2'>Gustavo Henrique</Typography>
                         <Box className="icon">
                         <IconButton aria-label="fingerprint" color="secondary" >
                         <Link href="https://drive.google.com/file/d/1y8dP9sXd_HFDBjxGVKcYH62ZcHOSOa__/view?usp=sharing" color="secondary">
