@@ -2,35 +2,47 @@ import { AppBar, Link, Toolbar, Typography } from "@material-ui/core";
 import { Grid, Box  } from "@mui/material";
 import './Navbar.css'
 import SobreMim from "../../../pages/SobreMim/SobreMim";
+import { Route } from "react-router-dom";
 
-function Navbar () {
+function Navbar ({acao=true}) {
   return(
 <>
-<AppBar position="static">
-  <Toolbar variant="dense" >
-  <Grid container direction='row' xs={12} spacing={1} rowSpacing={2}  gridAutoFlow='row'className="Bar" padding={3}>
-      <Grid  paddingTop={1} xs={7}  >
+<AppBar position='sticky' className={acao ? 'ativaCor' : 'Bar'} >
+  <Toolbar className={acao ? 'ativaCor' : ''} >
+  <Grid container direction='row' xs={12} spacing={1} rowSpacing={2}  gridAutoFlow='row' padding={1}>
+      <Grid  paddingTop={1} xs={6}  >
         <Link href="/">
         
-          <img src="src\components\estaticos\Navbar\Hms.png" width={'60vh'} height={'60vh'}  className="img1"  />          
+          <img src="src\components\estaticos\Navbar\Hms.png" width={'50vh'} height={'50vh'}  className="img1"  />          
       </Link>
       </Grid>
       <Grid  xs={5}  display="flex" alignItems="center" justifyContent="center" rowSpacing={2} className='nav2'>
-        <Box mx={2}>
+        <Box mx={1}>
         <Link href="/sobremim" >
+        
         <Typography className="font">Sobre Mim 🤯   </Typography>
         </Link>
         </Box >
         <Box mx={2}>
+        <Link href="/projetos" >
         <Typography className="font">Projetos 😎    </Typography>
+        </Link>
         </Box>
         <Box mx={2}>
+          <Link href="/contato">
         <Typography className="font">Contato 😊   </Typography>
+        </Link>
         </Box >
-        <Box mx={2}>
+        <Box mx={1}>
         <Typography className="font">Rede Sociais 😳   </Typography>
         </Box>
+        <Box mx={1}  className="entar" sx={{p:1}}>
+          <Typography className="textoentrar">
+               Entrar  
+          </Typography>
+        </Box>
       </Grid>
+      
         
 </Grid>
   </Toolbar>
